@@ -1,14 +1,18 @@
-FROM node:apline 
-#which is the base image
+FROM node:alpine
+
+# Set working directory
 WORKDIR /app
 
-COPY package*.json package-lock.json /app/
-
+# Copy package files and install dependencies
+COPY package*.json /app/
 RUN npm install --production
 
+# Copy all remaining source files
 COPY . /app/
 
+# Expose port
 EXPOSE 3000
 
-CMD ["nmp", "start"]
+# Start the application
+CMD ["npm", "start"]
 
