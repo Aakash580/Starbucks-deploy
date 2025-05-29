@@ -1,3 +1,5 @@
 Hello I have tested the deplomennt of C/I by checking this file how to run the code 
 
 Next step will be the Deployment on the aws eks to check the jenkins code i have wrote this !!!!!
+
+Deployment to eks and creating the 
