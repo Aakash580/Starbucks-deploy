@@ -5,3 +5,5 @@ Next step will be the Deployment on the aws eks to check the jenkins code i have
 Deployment to eks and creating the Cluster using the terraform!!!??
 
 check email notification
+
+I am checking the deployment step
