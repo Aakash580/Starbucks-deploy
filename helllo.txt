@@ -7,3 +7,5 @@ Deployment to eks and creating the Cluster using the terraform!!!??
 check email notification
 
 I am checking the deployment step
+
+Deployment checked and monitored by prometheus and grafana!!!
